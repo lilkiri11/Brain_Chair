@@ -445,8 +445,182 @@ img {
   display: flex;
 }
 .roadmap-items-first {
+  position: relative;
+  max-width: 450px;
+  max-height: 419px;
+  background: #1b1b1b;
+  border-radius: 54.729px;
+  margin-left: 208px;
+  padding: 47.6px 67px 60px 46px;
+  margin-top: 235px;
 }
 .roadmap-items-hero {
+  font-family: "KomiqueSans";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  /* identical to box height, or 48px */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #cef81b;
+  margin-bottom: 75.4px;
+}
+.roadmapItemsTExt {
+  font-family: "CabinetGrotesk-Light", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 140.5%;
+  /* or 28px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.roadmap-items-second {
+  position: relative;
+  width: 488px;
+  max-height: 524.49px;
+  background: #1b1b1b;
+  border-radius: 54.729px;
+  margin-left: 93px;
+  padding: 60px 80px 61px 54px;
+  margin-top: 174px;
+}
+.roadmap-items-thirt {
+  width: 450px;
+  background: #1b1b1b;
+  border-radius: 54.729px;
+  margin-left: 66px;
+  padding: 45px 14px 60px 28px;
+  margin-top: 207px;
+}
+.roadmapList {
+  margin-bottom: 343px;
+}
+.roadmapDecor {
+  position: absolute;
+  top: 573px;
+  left: 178px;
+  width: 436px;
+  height: 449px;
+}
+.roadmapDecorSecond {
+  position: absolute;
+  width: 506.85px;
+  height: 575.07px;
+  left: 677px;
+  top: 506px;
+}
+.roadmapDecorThirt {
+  position: absolute;
+  width: 476px;
+  height: 613px;
+  left: 1230px;
+  top: 526px;
+}
+.howToBuyCont {
+  position: relative;
+  max-width: 1521px;
+  margin-left: 200px;
+  margin-right: 191px;
+  padding-bottom: 160px;
+}
+
+.smileDecor {
+  position: absolute;
+  width: 437.25px;
+  height: 435px;
+  left: -92px;
+  top: 1130px;
+}
+
+.howTObuyHEro {
+  margin-left: 313px;
+  margin-top: -167px;
+}
+
+.howtoBaycontent {
+  display: flex;
+}
+.howTobuyLeft {
+  margin-right: 221px;
+  margin-top: 81px;
+}
+.list {
+}
+.howtobayLeftItems {
+}
+.leftItemsText {
+  font-family: "KomiqueSans";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  /* or 48px */
+
+  text-transform: uppercase;
+  text-shadow: -6px -1px 0px #ffffff;
+  color: #000000;
+  margin-bottom: 273px;
+}
+.leftItemsTextSecond {
+  font-family: "KomiqueSans";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  /* or 48px */
+
+  text-transform: uppercase;
+  text-shadow: -6px -1px 0px #ffffff;
+
+  color: #000000;
+  margin-bottom: 328px;
+}
+.leftItemsTextthirt {
+  font-family: "KomiqueSans";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  /* or 48px */
+
+  text-transform: uppercase;
+  text-shadow: -6px -1px 0px #ffffff;
+
+  color: #000000;
+  margin-bottom: 358px;
+}
+.leftItemsTextFOur {
+  font-family: "KomiqueSans";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  /* or 48px */
+
+  text-transform: uppercase;
+  text-shadow: -6px -1px 0px #ffffff;
+
+  color: #000000;
+}
+
+.howTobuyrightSide {
+  display: grid;
+  gap: 20px;
+  margin-top: 81px;
+}
+.rigthsideitems {
+  max-width: 1200px;
+  background: #000000;
+  border-radius: 60px;
+  padding: 60px 40px;
+}
+.rightsidetext {
+  font-family: "CabinetGrotesk-Light", sans-serif;
+  font-weight: 300;
+  font-size: 31px;
+  line-height: 150%;
+  /* or 46px */
+
+  color: #ffffff;
 }
 
 @font-face {
