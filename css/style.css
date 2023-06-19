@@ -11,6 +11,8 @@ body {
   color: #000000;
   background: #cef81b;
   margin: 0;
+  justify-content: center;
+  align-items: center;
 }
 .container {
   width: 1920px;
@@ -623,6 +625,111 @@ img {
   color: #ffffff;
 }
 
+/* Faq */
+
+.faqBox {
+  font-family: "CabinetGrotesk-Bold";
+  width: 1520px;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.faq {
+  margin-left: 245px;
+}
+
+details {
+  font-family: "Neue Machina";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 125%;
+  margin-bottom: 40px;
+}
+
+summary {
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px 50px 100px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+  justify-content: space-between;
+  transition: height 1s ease;
+  text-transform: uppercase;
+}
+
+.summaryAnswer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 64px;
+  font-family: "Neue Machina";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 180%;
+}
+
+.answerImg {
+  position: absolute;
+  right: 100px;
+  z-index: -1;
+}
+
+.answerText {
+  width: 600px;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  content: "\2192";
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  line-height: 50px;
+  background: #ffffff;
+  border-radius: 86px;
+  color: #000000;
+}
+
+details[open] summary {
+  /* border-bottom: 1px solid #aaa; */
+  /* margin-bottom: 20px; */
+}
+
+details[open] summary:after {
+  content: "\00D7";
+}
+
+details[open] div {
+  padding: 50px 100px;
+}
+.faqcontainer {
+  position: relative;
+  max-width: 1840px;
+  margin-left: 40px;
+  margin-right: 40px;
+  background: #151515;
+  border-radius: 60px;
+}
+.herofaq {
+  width: 957.71px;
+  height: 387px;
+  margin-left: 441px;
+  margin-bottom: 160px;
+}
 @font-face {
   font-family: "CabinetGrotesk-Light", sans-serif;
   src: url("../fonts/CabinetGrotesk-Light.woff2") format("woff2"),
