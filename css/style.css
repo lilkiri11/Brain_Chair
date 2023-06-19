@@ -171,6 +171,7 @@ img {
   margin-right: 75.64px;
   max-width: 832.36px;
   max-height: 894px;
+  margin-bottom: 1432px;
 }
 .rightSideBlack {
 }
@@ -212,15 +213,6 @@ img {
   margin-left: 94px;
 }
 
-@font-face {
-  font-family: "CabinetGrotesk-Light", sans-serif;
-  src: url("../fonts/CabinetGrotesk-Light.woff2") format("woff2"),
-    url("../fonts/CabinetGrotesk-Light.woff") format("woff"),
-    url("../fonts/CabinetGrotesk-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-display: swap;
-  font-style: normal;
-}
 .decorBrain {
   position: absolute;
   width: 273px;
@@ -250,8 +242,220 @@ img {
   top: 125.79px;
 }
 .aboutImg {
+  position: absolute;
   width: 1922px;
-  height: 1002px;
+  left: -41px;
+  top: 1562px;
+}
+.uncertainCOntainer {
+  position: relative;
+  width: 1861.8px;
+  margin-left: 158px;
+  margin-top: -10px;
+}
+.uncertainHero {
+  max-width: 1409px;
+
+  font-family: "KomiqueSans", sans-serif;
+  font-weight: 400;
+  font-size: 95px;
+  line-height: 100%;
+  text-transform: uppercase;
+
+  text-align: left;
+  color: transparent;
+  -webkit-text-stroke: 2px #cef81b;
+  padding-top: 160px;
+  margin-right: 352.8px;
+}
+
+.uncertainContent {
+  display: flex;
+}
+
+.uncertainText {
+  font-family: "CabinetGrotesk-Light";
+  font-weight: 300;
+  font-size: 31px;
+  line-height: 150%;
+  /* or 46px */
+
+  color: #ffffff;
+  max-width: 585px;
+  max-height: 188px;
+  margin-bottom: 30px;
+  margin-left: 227px;
+  margin-top: 160px;
+}
+.uncertainText-second {
+  font-family: "CabinetGrotesk-Light";
+  font-weight: 300;
+  font-size: 31px;
+  line-height: 150%;
+  /* or 46px */
+
+  color: #ffffff;
+  max-width: 585px;
+  max-height: 188px;
+  margin-left: 227px;
+}
+.uncertainImg {
+  width: 878px;
+  height: 878px;
+  margin-top: 16px;
+  margin-left: -10px;
+  margin-bottom: 661px;
+}
+
+.uncertainHeroSpan {
+  color: #cef81b;
+}
+.seconduncertainHeroSpan {
+}
+.uncertainDecor {
+  position: absolute;
+  width: 244px;
+  height: 299.65px;
+  left: 763.13px;
+  top: 1189.85px;
+}
+.tokenoomicsImg {
+  position: absolute;
+  left: -200px;
+  top: 1544px;
+}
+
+/* Token Distribution: */
+
+.tokenDistribution {
+  position: relative;
+  max-width: 1704px;
+  margin-left: 56px;
+  margin-right: 80px;
+  padding-bottom: 160px;
+}
+
+.tokenDistFirstHero {
+  font-family: "KomiqueSans";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  /* identical to box height, or 48px */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #cef81b;
+  margin-bottom: 7px;
+}
+.tokenDistSecondtHero {
+  font-family: "KomiqueSans";
+  font-weight: 400;
+  font-size: 95px;
+  line-height: 100%;
+  /* identical to box height, or 95px */
+
+  text-align: center;
+
+  color: #cef81b;
+  margin-bottom: 26px;
+}
+.tokenDistThirtHero {
+  font-family: "KomiqueSans";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  /* identical to box height, or 48px */
+
+  text-align: center;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px #cef81b;
+  margin-bottom: 72px;
+}
+.ventureHR {
+  height: 0px;
+  width: 1520px;
+  border: 1px solid #cef81b;
+  margin-left: 160px;
+  margin-bottom: 90px;
+}
+.tokenDistImg {
+  width: 1704px;
+  height: 713px;
+  margin-left: 56px;
+  margin-right: 80px;
+  margin-bottom: 117px;
+}
+.tokenDistText {
+  font-family: "CabinetGrotesk-Light";
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 60px;
+  max-width: 1520px;
+
+  color: #b0b0b0;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 90px;
+}
+.ventureHRSecond {
+  height: 0px;
+  width: 1520px;
+  border: 1px solid #cef81b;
+  margin-left: 160px;
+}
+
+/* roadmap */
+.roadmap {
+  position: relative;
+  max-width: 1544px;
+}
+
+.roadmapCar {
+  position: absolute;
+  width: 1774px;
+  height: 743px;
+  left: -600px;
+  top: -583px;
+}
+.roadmapHero {
+  position: relative;
+  font-family: "CabinetGrotesk-Medium";
+  margin-top: 425.35px;
+
+  font-weight: 500;
+  font-size: 240px;
+  line-height: 150%;
+  /* identical to box height, or 360px */
+
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #ffffff;
+  z-index: 999;
+}
+.roadmapheroImg {
+  width: 1305.31px;
+  position: absolute;
+  left: 328px;
+  top: -133px;
+}
+.roadmapList {
+}
+.roadmap-items-first {
+}
+.roadmap-items-hero {
+}
+
+@font-face {
+  font-family: "CabinetGrotesk-Light", sans-serif;
+  src: url("../fonts/CabinetGrotesk-Light.woff2") format("woff2"),
+    url("../fonts/CabinetGrotesk-Light.woff") format("woff"),
+    url("../fonts/CabinetGrotesk-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
 }
 @font-face {
   font-family: "CabinetGrotesk-Medium";
@@ -278,6 +482,15 @@ img {
     url("../fonts/CabinetGrotesk-Extrabold.woff") format("woff"),
     url("../fonts/CabinetGrotesk-Extrabold.ttf") format("truetype");
   font-weight: 800;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CabinetGrotesk-Light";
+  src: url("../fonts/CabinetGrotesk-Light.woff2") format("woff2"),
+    url("../fonts/CabinetGrotesk-Light.woff") format("woff"),
+    url("../fonts/CabinetGrotesk-Light.ttf") format("truetype");
+  font-weight: 300;
   font-display: swap;
   font-style: normal;
 }
