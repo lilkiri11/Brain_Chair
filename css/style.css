@@ -442,6 +442,7 @@ img {
   top: -133px;
 }
 .roadmapList {
+  display: flex;
 }
 .roadmap-items-first {
 }
