@@ -142,6 +142,76 @@ img {
   left: 1800px;
   top: -507px;
 }
+
+.black-section {
+  position: relative;
+  width: 1840px;
+  margin: 0px 40px 0px 40px;
+  background-color: #282828;
+  border-radius: 110px;
+}
+
+.hero-black-seaction {
+  font-family: "KomiqueSans", sans-serif;
+  font-weight: 400;
+  font-size: 95px;
+  line-height: 100%;
+
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke: 2px #cef81b;
+  padding-top: 160px;
+  margin-bottom: 61px;
+}
+.brainContent {
+  display: flex;
+}
+.leftSideBlackImg {
+  margin-left: 160px;
+  margin-right: 75.64px;
+  max-width: 832.36px;
+  max-height: 894px;
+}
+.rightSideBlack {
+}
+.rightSideHeroText {
+  font-family: "KomiqueSans", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+
+  text-transform: uppercase;
+
+  color: #cef81b;
+  margin-left: 94px;
+}
+.rightSideTxt {
+  font-family: "CabinetGrotesk-Light", sans-serif;
+  max-width: 623px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 31px;
+  line-height: 150%;
+  /* or 46px */
+
+  color: #ffffff;
+}
+.rightSideButton {
+  font-family: "CabinetGrotesk-Medium";
+  background: #cef81b;
+  border-radius: 56px;
+  padding: 28px 80px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 56px;
+  color: #000000;
+  margin-top: 100px;
+  margin-left: 94px;
+}
+
 @font-face {
   font-family: "CabinetGrotesk-Light", sans-serif;
   src: url("../fonts/CabinetGrotesk-Light.woff2") format("woff2"),
@@ -151,7 +221,38 @@ img {
   font-display: swap;
   font-style: normal;
 }
-
+.decorBrain {
+  position: absolute;
+  width: 273px;
+  height: 238px;
+  right: 42px;
+  top: 22px;
+}
+.decorbrainSecond {
+  position: absolute;
+  width: 71px;
+  height: 135px;
+  left: 1052px;
+  top: 1012px;
+}
+.decorBrainThirt {
+  position: absolute;
+  width: 74px;
+  height: 26px;
+  left: 1070px;
+  top: 418px;
+}
+.socorBrainfifth {
+  position: absolute;
+  width: 456.89px;
+  height: 142.15px;
+  left: 51.63px;
+  top: 125.79px;
+}
+.aboutImg {
+  width: 1922px;
+  height: 1002px;
+}
 @font-face {
   font-family: "CabinetGrotesk-Medium";
   src: url("../fonts/CabinetGrotesk-Medium.woff2") format("woff2"),
