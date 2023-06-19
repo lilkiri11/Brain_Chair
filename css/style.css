@@ -7,6 +7,7 @@ html {
   box-sizing: inherit;
 }
 body {
+  width: 1920px;
   font-family: "Comic Sans", sans-serif;
   color: #000000;
   background: #cef81b;
@@ -637,6 +638,7 @@ img {
   text-transform: uppercase;
 
   color: #ffffff;
+  margin-bottom: 18px;
 }
 .faq {
   margin-left: 245px;
@@ -683,7 +685,14 @@ summary {
 }
 
 .answerText {
+  font-family: "CabinetGrotesk-Light", sans-serif;
   width: 600px;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+
+  color: #ffffff;
 }
 
 summary::-webkit-details-marker {
@@ -730,6 +739,132 @@ details[open] div {
   margin-left: 441px;
   margin-bottom: 160px;
 }
+.UnlockingPossibilities {
+  width: 2094px;
+  position: relative;
+}
+.UnlockingHero {
+  font-family: "KomiqueSans";
+  text-shadow: -10px -15px 0px #ffffff;
+  margin-top: 262px;
+  margin-left: 490px;
+  font-weight: 400;
+  font-size: 95px;
+  line-height: 100%;
+  /* identical to box height, or 95px */
+
+  color: #000000;
+  margin-bottom: 666px;
+}
+.heroimgUnlock {
+  position: absolute;
+  width: 2076.65px;
+  height: 524.63px;
+  left: 115px;
+  top: 196px;
+}
+.firstunlokigtext {
+  width: 937px;
+  font-family: "CabinetGrotesk-Light", sans-serif;
+  font-weight: 300;
+  font-size: 39px;
+  line-height: 48px;
+  margin-left: 413px;
+  color: #000000;
+  margin-bottom: 60px;
+}
+.secondunloktext {
+  width: 812px;
+  font-family: "CabinetGrotesk-Light", sans-serif;
+  font-weight: 300;
+  font-size: 39px;
+  line-height: 48px;
+  margin-left: 583px;
+  color: #000000;
+  margin-bottom: 56.62px;
+}
+.thirtUnlokTExt {
+  font-family: "CabinetGrotesk-Light", sans-serif;
+  width: 343px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 140.5%;
+  /* or 28px */
+  margin-left: 601px;
+  color: #000000;
+}
+
+.unlockDecor {
+  position: absolute;
+  width: 434.64px;
+
+  left: 560px;
+  top: 1143.38px;
+}
+
+.unlockDecorSecond {
+  position: absolute;
+  width: 360px;
+  height: 467.05px;
+  left: 1674px;
+  top: 96px;
+}
+.unlockDecorThirt {
+  position: absolute;
+  width: 438px;
+  height: 291.53px;
+  left: 0px;
+  top: -237px;
+}
+.unlockDecor-fourt {
+  position: absolute;
+  width: 271px;
+  height: 149px;
+  left: 96px;
+  top: 730.38px;
+}
+.unlockDecorFift {
+  position: absolute;
+  width: 283px;
+  height: 149px;
+  left: 216px;
+  top: 999.3800000000001px;
+}
+.imgButton {
+  position: relative;
+}
+
+.Illustration {
+  width: 1920px;
+  height: 1210px;
+  margin-top: 160px;
+}
+.buttonfooter {
+  width: 581.89px;
+  height: 177px;
+  position: absolute;
+  font-family: "CabinetGrotesk-Medium";
+
+  background: #000000;
+  border-radius: 123.9px;
+  padding: 28px 80px;
+  font-weight: 500;
+  font-size: 44.25px;
+  line-height: 55px;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #cef81b;
+  top: 1017px;
+  left: 666px;
+}
+
+.brainFooter {
+  padding-top: 29px;
+  width: 1920px;
+  background: #151515;
+  height: 238px;
+}
+
 @font-face {
   font-family: "CabinetGrotesk-Light", sans-serif;
   src: url("../fonts/CabinetGrotesk-Light.woff2") format("woff2"),
