@@ -53,6 +53,14 @@ img {
 }
 
 .start {
+  display: none;
+}
+@media only screen and (min-width: 1200px) {
+  .start {
+    display: flex;
+  }
+   {
+  }
 }
 .header-container {
   display: flex;
@@ -73,8 +81,33 @@ img {
   color: #000000;
   text-transform: uppercase;
 }
-
+.mobAction {
+  font-family: "CabinetGrotesk-Extrabold", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 80%;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+.mobheader {
+  display: block;
+}
+@media only screen and (min-width: 1200px) {
+  .mobheader {
+    display: none;
+  }
+   {
+  }
+}
 .logo-header {
+  width: 89px;
+  height: 89px;
+}
+.mobLogo-header {
   width: 89px;
   height: 89px;
 }
@@ -535,7 +568,22 @@ img {
   margin-left: 158px;
   margin-top: -10px;
 }
+.uncertainHeroMob {
+  display: none;
+}
+@media only screen and (max-width: 1199px) {
+  .uncertainHeroMob {
+    display: block;
+    position: absolute;
+    width: 380px;
+    left: -153px;
+    top: 414px;
+  }
+   {
+  }
+}
 .uncertainHero {
+  display: none;
   max-width: 1409px;
 
   font-family: "KomiqueSans", sans-serif;
@@ -550,7 +598,26 @@ img {
   padding-top: 160px;
   margin-right: 352.8px;
 }
+@media only screen and (min-width: 1200px) {
+  .uncertainHero {
+    display: block;
+    max-width: 1409px;
 
+    font-family: "KomiqueSans", sans-serif;
+    font-weight: 400;
+    font-size: 95px;
+    line-height: 100%;
+    text-transform: uppercase;
+
+    text-align: left;
+    color: transparent;
+    -webkit-text-stroke: 2px #cef81b;
+    padding-top: 160px;
+    margin-right: 352.8px;
+  }
+   {
+  }
+}
 .uncertainContent {
   display: flex;
 }
@@ -558,18 +625,37 @@ img {
 .uncertainText {
   font-family: "CabinetGrotesk-Light";
   font-weight: 300;
-  font-size: 31px;
+  font-size: 18px;
   line-height: 150%;
   /* or 46px */
 
   color: #ffffff;
-  max-width: 585px;
+  max-width: 331px;
   max-height: 188px;
   margin-bottom: 30px;
-  margin-left: 227px;
-  margin-top: 160px;
+  margin-left: -841px;
+  margin-top: 982px;
+}
+@media only screen and (min-width: 1200px) {
+  .uncertainText {
+    font-family: "CabinetGrotesk-Light";
+    font-weight: 300;
+    font-size: 31px;
+    line-height: 150%;
+    /* or 46px */
+
+    color: #ffffff;
+    max-width: 585px;
+    max-height: 188px;
+    margin-bottom: 30px;
+    margin-left: 227px;
+    margin-top: 160px;
+  }
+   {
+  }
 }
 .uncertainText-second {
+  display: none;
   font-family: "CabinetGrotesk-Light";
   font-weight: 300;
   font-size: 31px;
@@ -581,34 +667,112 @@ img {
   max-height: 188px;
   margin-left: 227px;
 }
-.uncertainImg {
-  width: 878px;
-  height: 878px;
-  margin-top: 16px;
-  margin-left: -10px;
-  margin-bottom: 661px;
-}
+@media only screen and (min-width: 1200px) {
+  .uncertainText-second {
+    display: block;
+    font-family: "CabinetGrotesk-Light";
+    font-weight: 300;
+    font-size: 31px;
+    line-height: 150%;
+    /* or 46px */
 
+    color: #ffffff;
+    max-width: 585px;
+    max-height: 188px;
+    margin-left: 227px;
+  }
+   {
+  }
+}
+.uncertainImg {
+  width: 497px;
+  height: 497px;
+  margin-top: 1095px;
+  margin-left: -1739px;
+  margin-bottom: 631px;
+}
+@media only screen and (min-width: 1200px) {
+  .uncertainImg {
+    width: 878px;
+    height: 878px;
+    margin-top: 16px;
+    margin-left: -10px;
+    margin-bottom: 661px;
+  }
+   {
+  }
+}
 .uncertainHeroSpan {
   color: #cef81b;
 }
 .seconduncertainHeroSpan {
 }
 .uncertainDecor {
+  display: none;
   position: absolute;
   width: 244px;
   height: 299.65px;
   left: 763.13px;
   top: 1189.85px;
 }
+@media only screen and (min-width: 1200px) {
+  .uncertainDecor {
+    display: block;
+    position: absolute;
+    width: 244px;
+    height: 299.65px;
+    left: 763.13px;
+    top: 1189.85px;
+  }
+   {
+  }
+}
 .tokenoomicsImg {
+  display: none;
   position: absolute;
   left: -200px;
   top: 1544px;
 }
-
+@media only screen and (min-width: 1200px) {
+  .tokenoomicsImg {
+    display: block;
+    position: absolute;
+    left: -200px;
+    top: 1544px;
+  }
+   {
+  }
+}
 /* Token Distribution: */
-
+.tokenoomicsImgMob {
+  display: none;
+  position: absolute;
+  width: 468px;
+}
+@media only screen and (max-width: 1199px) {
+  .tokenoomicsImgMob {
+    display: block;
+    position: absolute;
+    width: 468px;
+    top: 1633px;
+    left: -215px;
+  }
+}
+ {
+}
+.mobtokenCon {
+  display: none;
+  margin-top: 0px;
+}
+@media only screen and (max-width: 1199px) {
+  .mobtokenCon {
+    display: block;
+    margin-top: -356px;
+    margin-left: -25px;
+  }
+   {
+  }
+}
 .tokenDistribution {
   position: relative;
   max-width: 1704px;
@@ -620,34 +784,70 @@ img {
 .tokenDistFirstHero {
   font-family: "KomiqueSans";
   font-weight: 400;
-  font-size: 48px;
+  font-size: 24px;
   line-height: 100%;
-  /* identical to box height, or 48px */
+  /* identical to box height, or 24px */
 
   text-align: center;
+  text-transform: uppercase;
   text-transform: uppercase;
 
   color: #cef81b;
   margin-bottom: 7px;
 }
+
+@media only screen and (min-width: 1200px) {
+  .tokenDistFirstHero {
+    font-family: "KomiqueSans";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    /* identical to box height, or 48px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #cef81b;
+    margin-bottom: 7px;
+  }
+   {
+  }
+}
 .tokenDistSecondtHero {
   font-family: "KomiqueSans";
   font-weight: 400;
-  font-size: 95px;
+  font-size: 40px;
   line-height: 100%;
-  /* identical to box height, or 95px */
+  /* identical to box height, or 40px */
 
   text-align: center;
 
   color: #cef81b;
   margin-bottom: 26px;
 }
+
+@media only screen and (min-width: 1200px) {
+  .tokenDistSecondtHero {
+    font-family: "KomiqueSans";
+    font-weight: 400;
+    font-size: 95px;
+    line-height: 100%;
+    /* identical to box height, or 95px */
+
+    text-align: center;
+
+    color: #cef81b;
+    margin-bottom: 26px;
+  }
+   {
+  }
+}
 .tokenDistThirtHero {
   font-family: "KomiqueSans";
   font-weight: 400;
-  font-size: 48px;
+  font-size: 24px;
   line-height: 100%;
-  /* identical to box height, or 48px */
+  /* identical to box height, or 24px */
 
   text-align: center;
   text-transform: uppercase;
@@ -655,37 +855,102 @@ img {
   -webkit-text-stroke: 1px #cef81b;
   margin-bottom: 72px;
 }
+@media only screen and (min-width: 1200px) {
+  .tokenDistThirtHero {
+    font-family: "KomiqueSans";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    /* identical to box height, or 48px */
+
+    text-align: center;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px #cef81b;
+    margin-bottom: 72px;
+  }
+   {
+  }
+}
 .ventureHR {
   height: 0px;
-  width: 1520px;
+  width: 350px;
   border: 1px solid #cef81b;
-  margin-left: 160px;
-  margin-bottom: 90px;
+  margin-left: -18px;
+  margin-bottom: 17px;
+}
+@media only screen and (min-width: 1200px) {
+  .ventureHR {
+    height: 0px;
+    width: 1520px;
+    border: 1px solid #cef81b;
+    margin-left: 160px;
+    margin-bottom: 90px;
+  }
+   {
+  }
 }
 .tokenDistImg {
-  width: 1704px;
-  height: 713px;
-  margin-left: 56px;
-  margin-right: 80px;
-  margin-bottom: 117px;
+  width: 388px;
+  height: 163px;
+  margin-left: -34px;
+  margin-right: 28px;
+  margin-bottom: 53px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .tokenDistImg {
+    width: 1704px;
+    height: 713px;
+    margin-left: 56px;
+    margin-right: 80px;
+    margin-bottom: 117px;
+  }
+   {
+  }
 }
 .tokenDistText {
   font-family: "CabinetGrotesk-Light";
   font-weight: 300;
-  font-size: 48px;
-  line-height: 60px;
-  max-width: 1520px;
+  font-size: 18px;
+  line-height: 27px;
 
   color: #b0b0b0;
-  margin-left: 160px;
-  margin-right: 160px;
-  margin-bottom: 90px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+@media only screen and (min-width: 1200px) {
+  .tokenDistText {
+    font-family: "CabinetGrotesk-Light";
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 60px;
+    max-width: 1520px;
+
+    color: #b0b0b0;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 90px;
+  }
+   {
+  }
 }
 .ventureHRSecond {
   height: 0px;
-  width: 1520px;
+  width: 350px;
   border: 1px solid #cef81b;
-  margin-left: 160px;
+  margin-left: -16px;
+}
+@media only screen and (min-width: 1200px) {
+  .ventureHRSecond {
+    height: 0px;
+    width: 1520px;
+    border: 1px solid #cef81b;
+    margin-left: 160px;
+  }
+   {
+  }
 }
 
 /* roadmap */
@@ -696,15 +961,53 @@ img {
 
 .roadmapCar {
   position: absolute;
-  width: 1774px;
-  height: 743px;
-  left: -600px;
-  top: -583px;
+  width: 603px;
+  height: 252px;
+  left: -232px;
+  top: -163px;
+}
+@media only screen and (min-width: 1200px) {
+  .roadmapCar {
+    position: absolute;
+    width: 1774px;
+    height: 743px;
+    left: -600px;
+    top: -583px;
+  }
+   {
+  }
+}
+.mobvs {
+  display: block;
+}
+@media only screen and (max-width: 1199px) {
+  .mobvs {
+    display: none;
+  }
+   {
+  }
+}
+
+.mobSection {
+  display: block;
+  position: absolute;
+  top: -7px;
+  left: 25px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .mobSection {
+    display: none;
+  }
+   {
+  }
 }
 .roadmapHero {
+  display: none;
   position: relative;
   font-family: "CabinetGrotesk-Medium";
   margin-top: 425.35px;
+  margin-left: 222px;
 
   font-weight: 500;
   font-size: 240px;
@@ -717,10 +1020,32 @@ img {
   color: #ffffff;
   z-index: 999;
 }
+@media only screen and (min-width: 1200px) {
+  .roadmapHero {
+    display: block;
+    position: relative;
+    font-family: "CabinetGrotesk-Medium";
+    margin-top: 425.35px;
+    margin-left: 222px;
+
+    font-weight: 500;
+    font-size: 240px;
+    line-height: 150%;
+    /* identical to box height, or 360px */
+
+    text-transform: uppercase;
+    text-align: center;
+
+    color: #ffffff;
+    z-index: 999;
+  }
+   {
+  }
+}
 .roadmapheroImg {
   width: 1305.31px;
   position: absolute;
-  left: 328px;
+  left: 278px;
   top: -133px;
 }
 .roadmapList {
@@ -783,29 +1108,52 @@ img {
 .roadmapDecor {
   position: absolute;
   top: 573px;
-  left: 178px;
+  left: 207px;
   width: 436px;
   height: 449px;
 }
 .roadmapDecorSecond {
   position: absolute;
-  width: 506.85px;
+  width: 444.85px;
   height: 575.07px;
-  left: 677px;
+  left: 672px;
   top: 506px;
 }
 .roadmapDecorThirt {
   position: absolute;
-  width: 476px;
+  width: 393px;
   height: 613px;
-  left: 1230px;
+  left: 1151px;
   top: 526px;
 }
 .howToBuyCont {
+  display: block;
   position: relative;
   max-width: 1521px;
   margin-left: 200px;
   margin-right: 191px;
+}
+@media only screen and (max-width: 1199px) {
+  .howToBuyCont {
+    display: none;
+    position: relative;
+    max-width: 1521px;
+    margin-left: 200px;
+    margin-right: 191px;
+  }
+   {
+  }
+}
+.sectionImgSecond {
+  display: block;
+  width: 430px;
+  margin-top: 1083px;
+  margin-left: 0px;
+}
+@media only screen and (min-width: 1200px) {
+  .sectionImgSecond {
+    display: none;
+  }
 }
 
 .smileDecor {
@@ -908,16 +1256,34 @@ img {
 
 .faqBox {
   font-family: "CabinetGrotesk-Bold";
-  width: 1520px;
-  font-weight: 700;
-  font-size: 31px;
-  line-height: 38px;
+  width: 300px;
+  font-size: 14px;
+  line-height: 14px;
   text-align: center;
   text-transform: uppercase;
 
   color: #ffffff;
   margin-top: 260px;
   margin-bottom: 18px;
+  margin-left: -248px;
+}
+@media only screen and (min-width: 1200px) {
+  .faqBox {
+    font-family: "CabinetGrotesk-Bold";
+    width: 1520px;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 0px;
+
+    color: #ffffff;
+    margin-top: 260px;
+    margin-bottom: 18px;
+  }
+   {
+  }
 }
 .faq {
   margin-left: 245px;
@@ -967,11 +1333,27 @@ summary {
   font-family: "CabinetGrotesk-Light", sans-serif;
   width: 600px;
   font-weight: 300;
-  font-size: 48px;
-  line-height: 60px;
+  font-size: 18px;
+  line-height: 22px;
   text-align: center;
+  padding-left: 0px;
 
   color: #ffffff;
+}
+@media only screen and (min-width: 1200px) {
+  .answerText {
+    font-family: "CabinetGrotesk-Light", sans-serif;
+    width: 600px;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    padding-left: 0px;
+
+    color: #ffffff;
+  }
+   {
+  }
 }
 
 summary::-webkit-details-marker {
@@ -1002,27 +1384,47 @@ details[open] summary:after {
 }
 
 details[open] div {
-  padding: 50px 100px;
+  padding: 12px 61px;
+}
+@media only screen and (min-width: 1200px) {
+  details[open] div {
+    padding: 50px 100px;
+  }
+   {
+  }
 }
 .faqcontainer {
   position: relative;
-  max-width: 1840px;
-  margin-left: 40px;
-  margin-right: 40px;
+  max-width: 390px;
+  margin-left: 16px;
+  margin-right: 0px;
   background: #151515;
   border-radius: 60px;
 }
+@media only screen and (min-width: 1200px) {
+  .faqcontainer {
+    position: relative;
+    max-width: 1840px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background: #151515;
+    border-radius: 60px;
+  }
+   {
+  }
+}
 .herofaq {
-  width: 957.71px;
-  height: 387px;
-  margin-left: 441px;
-  margin-bottom: 160px;
+  width: 228px;
+  height: 107px;
+  margin-left: 329px;
+  margin-bottom: 78px;
 }
 .UnlockingPossibilities {
   width: 2094px;
   position: relative;
 }
 .UnlockingHero {
+  display: none;
   font-family: "KomiqueSans";
   text-shadow: -10px -15px 0px #ffffff;
   margin-top: 262px;
@@ -1035,12 +1437,63 @@ details[open] div {
   color: #000000;
   margin-bottom: 666px;
 }
+@media only screen and (min-width: 1200px) {
+  .UnlockingHero {
+    display: block;
+    font-family: "KomiqueSans";
+    text-shadow: -10px -15px 0px #ffffff;
+    margin-top: 262px;
+    margin-left: 490px;
+    font-weight: 400;
+    font-size: 95px;
+    line-height: 100%;
+    /* identical to box height, or 95px */
+
+    color: #000000;
+    margin-bottom: 666px;
+  }
+   {
+  }
+}
 .heroimgUnlock {
   position: absolute;
-  width: 2076.65px;
-  height: 524.63px;
-  left: 115px;
-  top: 196px;
+  width: 579px;
+  height: 218px;
+  left: -23px;
+  top: -157px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .heroimgUnlock {
+    position: absolute;
+    width: 2076.65px;
+    height: 524.63px;
+    left: 115px;
+    top: 196px;
+  }
+   {
+  }
+}
+.mobVer {
+  display: none;
+}
+@media only screen and (min-width: 1200px) {
+  .mobVer {
+    display: block;
+  }
+   {
+  }
+}
+.secMob {
+  display: block;
+  margin-top: 440px;
+}
+@media only screen and (min-width: 1200px) {
+  .secMob {
+    display: none;
+  }
+   {
+  }
 }
 .firstunlokigtext {
   width: 937px;
@@ -1092,8 +1545,19 @@ details[open] div {
   position: absolute;
   width: 438px;
   height: 291.53px;
-  left: 0px;
-  top: -237px;
+  left: -10px;
+  top: -447px;
+}
+@media only screen and (min-width: 1200px) {
+  .unlockDecorThirt {
+    position: absolute;
+    width: 438px;
+    height: 291.53px;
+    left: 0px;
+    top: -237px;
+  }
+   {
+  }
 }
 .unlockDecor-fourt {
   position: absolute;
@@ -1114,46 +1578,95 @@ details[open] div {
 }
 
 .Illustration {
+  display: none;
   width: 1920px;
   height: 1210px;
   margin-top: 160px;
 }
-.buttonfooter {
-  width: 581.89px;
-  height: 177px;
-  position: absolute;
-  font-family: "CabinetGrotesk-Medium";
-
-  background: #000000;
-  border-radius: 123.9px;
-  padding: 28px 80px;
-  font-weight: 500;
-  font-size: 44.25px;
-  line-height: 55px;
-  text-transform: uppercase;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  color: #cef81b;
-  top: 1017px;
-  left: 666px;
+@media only screen and (min-width: 1200px) {
+  .Illustration {
+    display: block;
+    width: 1920px;
+    height: 1210px;
+    margin-top: 160px;
+  }
+   {
+  }
+}
+.mobIllustration {
+  margin-left: -747px;
+  display: block;
+  width: 430px;
+  height: 398px;
+}
+@media only screen and (min-width: 1200px) {
+  .mobIllustration {
+    display: none;
+    width: 430px;
+    height: 398px;
+  }
+   {
+  }
 }
 
 .brainFooter {
+  display: none;
   padding-top: 29px;
   width: 1920px;
   background: #151515;
   height: 238px;
 }
+@media only screen and (min-width: 1200px) {
+  .brainFooter {
+    display: block;
+    padding-top: 29px;
+    width: 1920px;
+    background: #151515;
+    height: 238px;
+  }
+   {
+  }
+}
 .contact-list-button {
   display: flex;
-  left: 551px;
-  top: 48px;
+  left: -1558px;
+  top: -181px;
   position: relative;
+}
+@media only screen and (min-width: 1200px) {
+  .contact-list-button {
+    display: flex;
+    left: 551px;
+    top: 48px;
+    position: relative;
+  }
+   {
+  }
 }
 .header-footer-container {
   display: flex;
   align-items: center;
   width: 1606px;
   margin: -38px 117px 179px 197px;
+}
+
+.mobFootercontainer {
+  display: flex;
+  width: 430px;
+  height: 100px;
+  background-color: #151515;
+}
+
+@media only screen and (min-width: 1200px) {
+  .mobFootercontainer {
+    display: none;
+
+    width: 430px;
+    height: 100px;
+    background-color: #151515;
+  }
+   {
+  }
 }
 
 @font-face {
