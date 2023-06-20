@@ -7,16 +7,17 @@ html {
   box-sizing: inherit;
 }
 body {
-  width: 1920px;
   font-family: "Comic Sans", sans-serif;
   color: #000000;
   background: #cef81b;
   margin: 0;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
+  /* костыль выше по overflow */
 }
 .container {
-  max-width: 439px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 
@@ -24,7 +25,8 @@ body {
 }
 @media only screen and (min-width: 1200px) {
   .container {
-    max-width: 1920px;
+    max-width: 1200px;
+    max-width: 100%;
     margin-left: 20px;
     margin-right: 20px;
 
@@ -65,11 +67,17 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  width: 1606px;
+  max-width: 1606px;
   margin: 44px 117px 179px 197px;
 }
 .navigation {
+  color: #fff;
 }
+
+.footerWhite {
+  color: #fff;
+}
+
 .action {
   font-family: "CabinetGrotesk-Extrabold", sans-serif;
   font-weight: 800;
@@ -78,9 +86,22 @@ img {
   display: flex;
   align-items: center;
   margin-right: auto;
-  color: #000000;
+  color: #fff;
   text-transform: uppercase;
 }
+
+.actionFooter {
+  font-family: "CabinetGrotesk-Extrabold", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 80%;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  color: #fff;
+  text-transform: uppercase;
+}
+
 .mobAction {
   font-family: "CabinetGrotesk-Extrabold", sans-serif;
   font-weight: 800;
@@ -107,6 +128,11 @@ img {
   width: 89px;
   height: 89px;
 }
+
+.logo-footer {
+  width: 89px;
+  height: 89px;
+}
 .mobLogo-header {
   width: 89px;
   height: 89px;
@@ -117,6 +143,16 @@ img {
   align-items: center;
   flex-direction: row;
 }
+
+.navlistHeader a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.logoFooter a {
+  color: #fff;
+}
+
 .list {
 }
 .nav-items {
@@ -128,6 +164,17 @@ img {
 
   color: #000000;
 }
+
+.nav-itemsFooter {
+  color: #fff;
+}
+
+.nav-itemsFooter a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 .hero-container {
   position: relative;
 }
@@ -147,7 +194,7 @@ img {
 
   color: #000000;
   top: -149px;
-  left: -708px;
+  left: 39px;
 
   color: #000000;
   text-shadow: -10px -15px 0px #ffffff;
@@ -169,7 +216,7 @@ img {
   position: absolute;
   font-family: "KomiqueSans", sans-serif;
   top: -97px;
-  left: -928px;
+  left: -167px;
   font-weight: 400;
   font-size: 60px;
   line-height: 84px;
@@ -199,7 +246,7 @@ img {
   width: 261.94px;
 
   transform: scale(-1, 1);
-  left: -726px;
+  left: 25px;
   top: -46px;
   z-index: -99;
 }
@@ -217,8 +264,8 @@ img {
 }
 .brain-img {
   position: absolute;
-  width: 224.18px;
-  left: -693.8299999999999px;
+  width: 193.18px;
+  left: 52.17000000000007px;
   top: -65.46000000000001px;
   transform: scale(-1, 1);
 }
@@ -248,7 +295,7 @@ img {
 
   color: #000000;
   margin-bottom: 38px;
-  margin-left: 0px;
+  margin-left: 746px;
   top: 252px;
   left: -711px;
 }
@@ -273,10 +320,10 @@ img {
 .hero-arrow {
   position: absolute;
   width: 16px;
-  margin-left: 935px;
+  margin-left: 0px;
   margin-bottom: 60px;
   top: 306px;
-  left: -1490px;
+  left: 189px;
 }
 @media only screen and (min-width: 1200px) {
   .hero-arrow {
@@ -447,6 +494,15 @@ img {
   color: #000000;
   margin-top: 344px;
   margin-left: 67px;
+}
+
+.rightSideButton a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.rightSideButton:hover {
+  opacity: 0.8;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -684,13 +740,15 @@ img {
    {
   }
 }
+
 .uncertainImg {
   width: 497px;
   height: 497px;
   margin-top: 1095px;
-  margin-left: -1739px;
+  margin-left: -205px;
   margin-bottom: 631px;
 }
+
 @media only screen and (min-width: 1200px) {
   .uncertainImg {
     width: 878px;
@@ -1297,18 +1355,63 @@ details {
   line-height: 125%;
   margin-bottom: 40px;
 }
+.faqtext {
+  width: 232.28px;
+  font-family: "CabinetGrotesk-Bold";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
 
+  color: #ffffff;
+}
+@media only screen and (min-width: 1200px) {
+  .faqtext {
+    width: 868px;
+    font-family: "CabinetGrotesk-Bold";
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+   {
+  }
+}
 summary {
   z-index: 5;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 100px 50px 100px;
+  padding: 32px 50px 50px 72px;
   background: rgba(0, 0, 0, 0.05);
   border-radius: 30px;
+  width: 261px;
   justify-content: space-between;
   transition: height 1s ease;
   text-transform: uppercase;
+  text-align: left;
+}
+@media only screen and (min-width: 1200px) {
+  summary {
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px 50px 100px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    width: 1000px;
+    justify-content: space-between;
+    transition: height 1s ease;
+    text-transform: uppercase;
+    text-align: left;
+  }
+   {
+  }
 }
 
 .summaryAnswer {
@@ -1418,6 +1521,16 @@ details[open] div {
   height: 107px;
   margin-left: 329px;
   margin-bottom: 78px;
+}
+@media only screen and (min-width: 1200px) {
+  .herofaq {
+    width: 957.71px;
+    height: 387px;
+    margin-left: 329px;
+    margin-bottom: 78px;
+  }
+   {
+  }
 }
 .UnlockingPossibilities {
   width: 2094px;
@@ -1582,6 +1695,7 @@ details[open] div {
   width: 1920px;
   height: 1210px;
   margin-top: 160px;
+  margin-left: 0px;
 }
 @media only screen and (min-width: 1200px) {
   .Illustration {
@@ -1589,12 +1703,13 @@ details[open] div {
     width: 1920px;
     height: 1210px;
     margin-top: 160px;
+    margin-left: -24px;
   }
    {
   }
 }
 .mobIllustration {
-  margin-left: -747px;
+  margin-left: 0px;
   display: block;
   width: 430px;
   height: 398px;
