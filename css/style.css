@@ -1741,10 +1741,6 @@ details[open] div {
   }
 }
 .contact-list-button {
-  display: flex;
-  left: -1558px;
-  top: -181px;
-  position: relative;
 }
 @media only screen and (min-width: 1200px) {
   .contact-list-button {
