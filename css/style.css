@@ -16,11 +16,22 @@ body {
   align-items: center;
 }
 .container {
-  width: 1920px;
+  max-width: 439px;
   margin-left: auto;
   margin-right: auto;
 
   align-items: center;
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1920px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    align-items: center;
+  }
+   {
+  }
 }
 .link {
   text-decoration: none;
@@ -87,78 +98,206 @@ img {
 .hero-container {
   position: relative;
 }
+
 .lefy-side-hero {
   width: 800px;
   margin-left: 194px;
   margin-bottom: 180px;
 }
 .hero-text {
+  position: absolute;
   font-family: "KomiqueSans", sans-serif;
   font-weight: 400;
-  font-size: 149px;
-  line-height: 125px;
+  font-size: 60px;
+  line-height: 50px;
   text-transform: uppercase;
+
+  color: #000000;
+  top: -149px;
+  left: -708px;
+
+  color: #000000;
   text-shadow: -10px -15px 0px #ffffff;
 }
+@media only screen and (min-width: 1200px) {
+  .hero-text {
+    position: static;
+    font-family: "KomiqueSans", sans-serif;
+    font-weight: 400;
+    font-size: 149px;
+    line-height: 125px;
+    text-transform: uppercase;
+    text-shadow: -10px -15px 0px #ffffff;
+  }
+   {
+  }
+}
 .second-hero-text {
+  position: absolute;
   font-family: "KomiqueSans", sans-serif;
+  top: -97px;
+  left: -928px;
   font-weight: 400;
-  font-size: 149px;
-  line-height: 209px;
+  font-size: 60px;
+  line-height: 84px;
+  /* identical to box height */
 
+  color: #000000;
   text-shadow: -10px -15px 0px #ffffff;
   margin-left: 397px;
 }
+
+@media only screen and (min-width: 1200px) {
+  .second-hero-text {
+    position: static;
+    font-family: "KomiqueSans", sans-serif;
+    font-weight: 400;
+    font-size: 149px;
+    line-height: 209px;
+
+    text-shadow: -10px -15px 0px #ffffff;
+    margin-left: 397px;
+  }
+   {
+  }
+}
 .hero-img-background {
   position: absolute;
-  width: 788.17px;
+  width: 261.94px;
 
-  left: 934px;
-  top: -196px;
+  transform: scale(-1, 1);
+  left: -726px;
+  top: -46px;
+  z-index: -99;
+}
+@media only screen and (min-width: 1200px) {
+  .hero-img-background {
+    position: absolute;
+    width: 788.17px;
+    transform: none;
+    left: 934px;
+    top: -196px;
+    z-index: -99;
+  }
+   {
+  }
 }
 .brain-img {
   position: absolute;
-  width: 498.97px;
-  left: 1113px;
-
-  top: -156px;
+  width: 224.18px;
+  left: -693.8299999999999px;
+  top: -65.46000000000001px;
+  transform: scale(-1, 1);
 }
+
+@media only screen and (min-width: 1200px) {
+  .brain-img {
+    position: absolute;
+    width: 498.97px;
+    left: 1113px;
+    top: -156px;
+    transform: none;
+  }
+   {
+  }
+}
+
 .hero-text-paragraph {
+  position: absolute;
   font-family: "CabinetGrotesk-Light", sans-serif;
   font-weight: 300;
-  font-size: 39px;
-  line-height: 49px;
+  font-size: 15px;
+  line-height: 125%;
+  /* or 22px */
+
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 38px;
 
   color: #000000;
+  margin-bottom: 38px;
+  margin-left: 0px;
+  top: 252px;
+  left: -711px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero-text-paragraph {
+    position: static;
+    font-family: "CabinetGrotesk-Light", sans-serif;
+    font-weight: 300;
+    font-size: 39px;
+    line-height: 49px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 38px;
+
+    color: #000000;
+    margin-left: 0px;
+  }
+   {
+  }
 }
 .hero-arrow {
-  width: 26px;
+  position: absolute;
+  width: 16px;
   margin-left: 935px;
   margin-bottom: 60px;
+  top: 306px;
+  left: -1490px;
+}
+@media only screen and (min-width: 1200px) {
+  .hero-arrow {
+    position: static;
+    width: 26px;
+    margin-left: 935px;
+    margin-bottom: 60px;
+  }
+   {
+  }
 }
 
 .contact-list {
+  display: none;
   position: relative;
   left: 1800px;
   top: -507px;
 }
 
+@media only screen and (min-width: 1200px) {
+  .contact-list {
+    display: block;
+    position: relative;
+    left: 1800px;
+    top: -507px;
+  }
+   {
+  }
+}
 .black-section {
   position: relative;
-  width: 1840px;
-  margin: 0px 40px 0px 40px;
+  width: 390px;
+  margin: 614px 40px 0px 10px;
   background-color: #282828;
   border-radius: 110px;
+}
+@media only screen and (min-width: 1200px) {
+  .black-section {
+    position: relative;
+    width: 1840px;
+    margin: 0px 40px 0px 40px;
+    background-color: #282828;
+    border-radius: 110px;
+  }
+   {
+  }
 }
 
 .hero-black-seaction {
   font-family: "KomiqueSans", sans-serif;
   font-weight: 400;
-  font-size: 95px;
+  font-size: 40px;
   line-height: 100%;
+  /* or 40px */
 
   text-align: center;
   color: transparent;
@@ -166,39 +305,100 @@ img {
   padding-top: 160px;
   margin-bottom: 61px;
 }
+
+@media only screen and (min-width: 1200px) {
+  .hero-black-seaction {
+    font-family: "KomiqueSans", sans-serif;
+    font-weight: 400;
+    font-size: 95px;
+    line-height: 100%;
+
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 2px #cef81b;
+    padding-top: 160px;
+    margin-bottom: 61px;
+  }
+   {
+  }
+}
 .brainContent {
   display: flex;
 }
+
 .leftSideBlackImg {
-  margin-left: 160px;
-  margin-right: 75.64px;
-  max-width: 832.36px;
-  max-height: 894px;
-  margin-bottom: 1432px;
+  position: absolute;
+  width: 315px;
+  height: 329px;
+  left: 36px;
+  top: 548px;
+}
+@media only screen and (min-width: 1200px) {
+  .leftSideBlackImg {
+    position: static;
+    margin-left: 160px;
+    margin-right: 75.64px;
+    max-width: 832.36px;
+    max-height: 894px;
+    margin-bottom: 1432px;
+    width: 832.36px;
+    height: 894px;
+  }
+   {
+  }
 }
 .rightSideBlack {
 }
 .rightSideHeroText {
   font-family: "KomiqueSans", sans-serif;
   font-weight: 400;
-  font-size: 48px;
+  font-size: 24px;
   line-height: 100%;
+  /* or 24px */
 
   text-transform: uppercase;
 
   color: #cef81b;
-  margin-left: 94px;
+  margin-left: 16px;
 }
+@media only screen and (min-width: 1200px) {
+  .rightSideHeroText {
+    font-family: "KomiqueSans", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+
+    text-transform: uppercase;
+
+    color: #cef81b;
+    margin-left: 94px;
+  }
+   {
+  }
+}
+
 .rightSideTxt {
   font-family: "CabinetGrotesk-Light", sans-serif;
   max-width: 623px;
-  font-style: normal;
   font-weight: 300;
-  font-size: 31px;
-  line-height: 150%;
-  /* or 46px */
+  font-size: 18px;
+  line-height: 125%;
+  /* or 22px */
 
   color: #ffffff;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .rightSideTxt {
+    font-family: "CabinetGrotesk-Light", sans-serif;
+    font-weight: 300;
+    font-size: 31px;
+    line-height: 150%;
+    /* or 46px */
+    padding: 0px;
+    color: #ffffff;
+  }
 }
 .rightSideButton {
   font-family: "CabinetGrotesk-Medium";
@@ -212,23 +412,65 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 56px;
   color: #000000;
-  margin-top: 100px;
-  margin-left: 94px;
+  margin-top: 344px;
+  margin-left: 67px;
 }
 
+@media only screen and (min-width: 1200px) {
+  .rightSideButton {
+    font-family: "CabinetGrotesk-Medium";
+    background: #cef81b;
+    border-radius: 56px;
+    padding: 28px 80px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 56px;
+    color: #000000;
+    margin-top: 100px;
+    margin-left: 94px;
+  }
+   {
+  }
+}
 .decorBrain {
   position: absolute;
-  width: 273px;
-  height: 238px;
-  right: 42px;
-  top: 22px;
+  width: 149.26px;
+  height: 130.13px;
+  right: -31px;
+  top: 6.2099999999999795px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .decorBrain {
+    position: absolute;
+    width: 273px;
+    height: 238px;
+    right: 42px;
+    top: 22px;
+  }
+   {
+  }
 }
 .decorbrainSecond {
   position: absolute;
-  width: 71px;
-  height: 135px;
-  left: 1052px;
-  top: 1012px;
+  width: 46px;
+  height: 87.46px;
+  left: 11px;
+  top: 911px;
+}
+@media only screen and (min-width: 1200px) {
+  .decorbrainSecond {
+    position: absolute;
+    width: 71px;
+    height: 135px;
+    left: 1052px;
+    top: 1012px;
+  }
+   {
+  }
 }
 .decorBrainThirt {
   position: absolute;
@@ -239,16 +481,53 @@ img {
 }
 .socorBrainfifth {
   position: absolute;
-  width: 456.89px;
-  height: 142.15px;
-  left: 51.63px;
-  top: 125.79px;
+  width: 158px;
+  left: -65px;
+  top: 62px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .socorBrainfifth {
+    position: absolute;
+    width: 456.89px;
+    height: 142.15px;
+    left: 51.63px;
+    top: 125.79px;
+  }
+   {
+  }
 }
 .aboutImg {
+  display: none;
   position: absolute;
   width: 1922px;
   left: -41px;
   top: 1562px;
+}
+@media only screen and (min-width: 1200px) {
+  .aboutImg {
+    display: block;
+    position: absolute;
+    width: 1922px;
+    left: -41px;
+    top: 1562px;
+  }
+   {
+  }
+}
+.aboutImgMob {
+  display: none;
+}
+@media only screen and (max-width: 1199px) {
+  .aboutImgMob {
+    display: block;
+    position: absolute;
+    width: 430px;
+    left: -15px;
+    top: 1045px;
+  }
+   {
+  }
 }
 .uncertainCOntainer {
   position: relative;
@@ -527,7 +806,6 @@ img {
   max-width: 1521px;
   margin-left: 200px;
   margin-right: 191px;
-  padding-bottom: 160px;
 }
 
 .smileDecor {
@@ -638,6 +916,7 @@ img {
   text-transform: uppercase;
 
   color: #ffffff;
+  margin-top: 260px;
   margin-bottom: 18px;
 }
 .faq {
@@ -863,6 +1142,18 @@ details[open] div {
   width: 1920px;
   background: #151515;
   height: 238px;
+}
+.contact-list-button {
+  display: flex;
+  left: 551px;
+  top: 48px;
+  position: relative;
+}
+.header-footer-container {
+  display: flex;
+  align-items: center;
+  width: 1606px;
+  margin: -38px 117px 179px 197px;
 }
 
 @font-face {
