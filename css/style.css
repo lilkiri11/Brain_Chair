@@ -7,13 +7,15 @@ html {
   box-sizing: inherit;
 }
 body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   font-family: "Comic Sans", sans-serif;
   color: #000000;
   background: #cef81b;
   margin: 0;
-  justify-content: center;
   align-items: center;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   /* костыль выше по overflow */
 }
 .container {
@@ -337,10 +339,6 @@ img {
 }
 
 .contact-list {
-  display: none;
-  position: relative;
-  left: 1800px;
-  top: -507px;
 }
 
 @media only screen and (min-width: 1200px) {
