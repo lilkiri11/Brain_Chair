@@ -116,17 +116,8 @@ img {
   text-transform: uppercase;
   margin-bottom: 0px;
 }
-.mobhedCont{
-  display: flex;
-  align-items: center;
-margin-top: 40px;
-
-  
-
-}
 .mobheader {
-  display: flex;
-  align-items: center;
+  display: block;
 }
 @media only screen and (min-width: 1200px) {
   .mobheader {
@@ -134,19 +125,6 @@ margin-top: 40px;
   }
    {
   }
-}
-.mobNav {
-
-}
-.navMenuText {
-  font-family: "CabinetGrotesk-Medium";
-  font-weight: 500;
-font-size: 22px;
-line-height: 27px;
-text-transform: uppercase;
-
-color: #000000;
-
 }
 .logo-header {
   width: 89px;
@@ -217,7 +195,7 @@ color: #000000;
   text-transform: uppercase;
 
   color: #000000;
-  top: -94px;
+  top: -149px;
   left: 39px;
 
   color: #000000;
@@ -239,7 +217,7 @@ color: #000000;
 .second-hero-text {
   position: absolute;
   font-family: "KomiqueSans", sans-serif;
-  top: -42px;
+  top: -97px;
   left: -167px;
   font-weight: 400;
   font-size: 60px;
@@ -265,13 +243,24 @@ color: #000000;
    {
   }
 }
+.
+.navMenuText{
+  font-family: "CabinetGrotesk-Medium";
+  font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+text-transform: uppercase;
+
+color: #000000;
+}
 .hero-img-background {
   position: absolute;
   width: 261.94px;
 
   transform: scale(-1, 1);
   left: 25px;
-  top: 10px;  z-index: -99;
+  top: -46px;
+  z-index: -99;
 }
 @media only screen and (min-width: 1200px) {
   .hero-img-background {
@@ -289,8 +278,8 @@ color: #000000;
   position: absolute;
   width: 193.18px;
   left: 52.17000000000007px;
-  top: -7.460000000000008px;
-    transform: scale(-1, 1);
+  top: -65.46000000000001px;
+  transform: scale(-1, 1);
 }
 
 @media only screen and (min-width: 1200px) {
@@ -363,14 +352,15 @@ color: #000000;
 }
 
 
-.black-section{
+
+.black-section {
   position: relative;
   width: 390px;
-  margin: 500px 0px 0px 0px;
+  margin: 457px 0px 0px 0px;
   background-color: #282828;
   border-radius: 110px;
 }
-
+ 
 @media only screen and (min-width: 1200px) {
   .black-section {
     position: relative;
@@ -381,23 +371,24 @@ color: #000000;
   }
    {
   }
+}
 
-
-.hero-black-seactio{
+.heroBackSeaction {
   font-family: "KomiqueSans", sans-serif;
   font-weight: 400;
   font-size: 40px;
   line-height: 100%;
+  /* or 40px */
+
   text-align: center;
   color: transparent;
   -webkit-text-stroke: 2px #cef81b;
   padding-top: 160px;
   margin-bottom: 61px;
-
 }
 
 @media only screen and (min-width: 1200px) {
-  .hero-black-seaction {
+  .heroBackSeaction {
     font-family: "KomiqueSans", sans-serif;
     font-weight: 400;
     font-size: 95px;
@@ -622,15 +613,15 @@ color: #000000;
     display: block;
     position: absolute;
     width: 430px;
-    left: -15px;
+    left: -20px;
     top: 1045px;
   }
    {
   }
 }
 .uncertainCOntainer {
+  display: block;
   position: relative;
-  width: 1861.8px;
   margin-left: 158px;
   margin-top: -10px;
 }
@@ -699,8 +690,8 @@ color: #000000;
   max-width: 331px;
   max-height: 188px;
   margin-bottom: 30px;
-  margin-left: -841px;
-  margin-top: 982px;
+  margin-left: -132px;
+      margin-top: 982px;
 }
 @media only screen and (min-width: 1200px) {
   .uncertainText {
@@ -754,8 +745,8 @@ color: #000000;
 .uncertainImg {
   width: 497px;
   height: 497px;
-  margin-top: 1095px;
-  margin-left: -205px;
+  margin-top: 1115px;
+  margin-left: -399px;
   margin-bottom: 631px;
 }
 
@@ -829,10 +820,11 @@ color: #000000;
  {
 }
 .mobtokenCon {
-  margin-top: -356px;
-  margin-left: -25px;
-
+  margin-top: -400px;
+  margin-left: -27px;
 }
+
+
 @media only screen and (min-width: 1200px) {
   .mobtokenCon {
     display: block;
@@ -979,15 +971,16 @@ color: #000000;
   }
 }
 .tokenDistText {
+
   font-family: "CabinetGrotesk-Light";
   font-weight: 300;
   font-size: 18px;
   line-height: 27px;
 
   color: #b0b0b0;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
+  margin-left: -14px;
+  margin-right: 112px;
+  margin-bottom: 5px;
 }
 @media only screen and (min-width: 1200px) {
   .tokenDistText {
@@ -995,9 +988,8 @@ color: #000000;
     font-weight: 300;
     font-size: 48px;
     line-height: 60px;
-    max-width: 1520px;
-
-    color: #b0b0b0;
+    
+    color: #B0B0B0;
     margin-left: 160px;
     margin-right: 160px;
     margin-bottom: 90px;
@@ -1060,8 +1052,8 @@ color: #000000;
 .mobSection {
   display: block;
   position: absolute;
-  top: -7px;
-  left: 25px;
+  top: -2px;
+  left: -12px;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -1218,8 +1210,8 @@ color: #000000;
 .sectionImgSecond {
   display: block;
   width: 430px;
-  margin-top: 1083px;
-  margin-left: 0px;
+  margin-top: 1097px;
+    margin-left: 2px;
 }
 @media only screen and (min-width: 1200px) {
   .sectionImgSecond {
@@ -1511,11 +1503,11 @@ details[open] div {
 .faqcontainer {
   position: relative;
   max-width: 390px;
-  margin-left: 16px;
+  margin-left: 0px;
   margin-right: 0px;
   background: #151515;
   border-radius: 60px;
-}
+  margin-top: -234px;}
 @media only screen and (min-width: 1200px) {
   .faqcontainer {
     position: relative;
@@ -1524,6 +1516,7 @@ details[open] div {
     margin-right: 40px;
     background: #151515;
     border-radius: 60px;
+    margin-top: 0px;
   }
    {
   }
@@ -1545,7 +1538,7 @@ details[open] div {
   }
 }
 .UnlockingPossibilities {
-  width: 2094px;
+  width: 430px;
   position: relative;
 }
 .UnlockingHero {
@@ -1568,7 +1561,7 @@ details[open] div {
     font-family: "KomiqueSans";
     text-shadow: -10px -15px 0px #ffffff;
     margin-top: 272px;
-    margin-left: 490px;
+    margin-left: -23px;
     font-weight: 400;
     font-size: 95px;
     line-height: 100%;
@@ -1585,7 +1578,7 @@ details[open] div {
   width: 579px;
   height: 218px;
   left: -23px;
-  top: -157px;
+  top: 306px;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -1593,8 +1586,8 @@ details[open] div {
     position: absolute;
     width: 2076.65px;
     height: 524.63px;
-    left: 225px;
-    top: 457px;
+    left: -796px;
+    top: 577px;
   }
    {
   }
@@ -1611,7 +1604,7 @@ details[open] div {
 }
 .secMob {
   display: block;
-  margin-top: 440px;
+  margin-top: 489px;
 }
 @media only screen and (min-width: 1200px) {
   .secMob {
@@ -1626,7 +1619,7 @@ details[open] div {
   font-weight: 300;
   font-size: 39px;
   line-height: 48px;
-  margin-left: 413px;
+  margin-left: -204px;
   color: #000000;
   margin-bottom: 60px;
 }
@@ -1636,7 +1629,7 @@ details[open] div {
   font-weight: 300;
   font-size: 39px;
   line-height: 48px;
-  margin-left: 583px;
+  margin-left: -52px;
   color: #000000;
   margin-bottom: 56.62px;
 }
@@ -1647,7 +1640,7 @@ details[open] div {
   font-size: 20px;
   line-height: 140.5%;
   /* or 28px */
-  margin-left: 601px;
+  margin-left: 28px;
   color: #000000;
 }
 
@@ -1655,30 +1648,63 @@ details[open] div {
   position: absolute;
   width: 434.64px;
 
-  left: 560px;
-  top:  1421.38px;
+  left: -22px;
+  top: 1511.38px;
 }
 
 .unlockDecorSecond {
   position: absolute;
   width: 360px;
   height: 467.05px;
-  left: 1762px;
+  left: 921px;
   top: 272px;
+}
+
+.logo-link-hero {
+  display: none;
+  position: absolute;
+  left: 1772px;
+  top: 621px;
+}
+@media only screen and (min-width: 1200px) {
+  .logo-link-hero {
+    display: block;
+    position: absolute;
+    left: 1772px;
+    top: 621px;
+  } {
+    
+  }
+}
+.logo-link-hero-second {
+  display: none;
+  position: absolute;
+  left: 1772px;
+  top: 702px;
+}
+@media only screen and (min-width: 1200px) {
+  .logo-link-hero-second {
+    display: block;
+    position: absolute;
+    left: 1772px;
+    top: 702px;
+  } {
+    
+  }
 }
 .unlockDecorThirt {
   position: absolute;
   width: 438px;
   height: 291.53px;
-  left: -10px;
-  top: -447px;
+  left: 0px;
+  top: 0px;
 }
 @media only screen and (min-width: 1200px) {
   .unlockDecorThirt {
     position: absolute;
     width: 438px;
     height: 291.53px;
-    left: 80px;
+    left: -752px;
     top: -0px;
   }
    {
@@ -1688,15 +1714,15 @@ details[open] div {
   position: absolute;
   width: 271px;
   height: 149px;
-      left: 98px;
-    top: 1009.3800000000001px;
+      left: -727px;
+      top: 1117.38px;
 }
 .unlockDecorFift {
   position: absolute;
   width: 283px;
   height: 149px;
-  left: 216px;
-  top: 1223.38px;
+  left: -568px;
+  top: 1342.38px;
 }
 
 .imgButton {
@@ -1721,7 +1747,7 @@ margin-left: -51px;  }
   }
 }
 .mobIllustration {
-  margin-left: 0px;
+  margin-left: -21px;
   display: block;
   width: 430px;
   height: 398px;
@@ -1788,6 +1814,69 @@ margin-left: -51px;  }
    {
   }
 }
+
+.logo-link-button-first {
+  display: none;
+  position: absolute;
+  left: 1772px;
+  top: 621px;
+}
+@media only screen and (min-width: 1200px) {
+  .logo-link-button-first  {
+    display: block;
+    position: absolute;
+    left: 528px;
+        top: 17080px;
+  } {
+    
+  }
+}
+.logo-link-button-second {
+  display: none;
+  position: absolute;
+  left: 1772px;
+  top: 702px;
+}
+@media only screen and (min-width: 1200px) {
+  .logo-link-button-second {
+    display: block;
+    position: absolute;
+    left: 442px;
+    top: 17080px;
+  } } 
+    
+    
+  .MOblogo-link-button-first {
+    display: none;
+    position: absolute;
+    left: 1772px;
+    top: 621px;
+  }
+  @media only screen and (max-width: 1199px) {
+    .MOblogo-link-button-first  {
+      display: block;
+      position: absolute;
+      left: 226px;
+      top: 10551px;
+    } {
+      
+    }
+  }
+  .MOblogo-link-button-second {
+    display: none;
+    position: absolute;
+    left: 1772px;
+    top: 702px;
+  }
+  @media only screen and (max-width: 1199px) {
+    .Moblogo-link-button-second {
+      display: block;
+      position: absolute;
+      left: 306px;
+      top: 10551px;
+    } } 
+      
+      
 
 @font-face {
   font-family: "CabinetGrotesk-Light", sans-serif;
