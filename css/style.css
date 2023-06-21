@@ -809,19 +809,18 @@ img {
  {
 }
 .mobtokenCon {
-  display: block;
   margin-top: -356px;
   margin-left: -25px;
 
 }
-@media only screen and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) {
   .mobtokenCon {
     display: block;
-    margin-top: -356px;
-    margin-left: -25px;
+    margin-top: 117px;
+     {
+    
   }
-   {
-  }
+}margin-left: -25px;
 }
 .tokenDistribution {
   position: relative;
@@ -1021,8 +1020,8 @@ img {
     position: absolute;
     width: 1774px;
     height: 743px;
-    left: -600px;
-    top: -583px;
+    left: -847px;
+    top: -251px;
   }
    {
   }
@@ -1075,8 +1074,8 @@ img {
     display: block;
     position: relative;
     font-family: "CabinetGrotesk-Medium";
-    margin-top: 425.35px;
-    margin-left: 222px;
+    margin-top: 286.35px;
+    margin-left: -292px;
 
     font-weight: 500;
     font-size: 240px;
@@ -1093,10 +1092,10 @@ img {
   }
 }
 .roadmapheroImg {
-  width: 1305.31px;
+  width: 1355.31px;
   position: absolute;
-  left: 278px;
-  top: -133px;
+  left: 113px;
+  top: 147px;
 }
 .roadmapList {
   display: flex;
@@ -1110,6 +1109,7 @@ img {
   margin-left: 208px;
   padding: 47.6px 67px 60px 46px;
   margin-top: 235px;
+  margin-left: 0px;
 }
 .roadmap-items-hero {
   font-family: "KomiqueSans";
@@ -1140,7 +1140,7 @@ img {
   max-height: 524.49px;
   background: #1b1b1b;
   border-radius: 54.729px;
-  margin-left: 93px;
+  margin-left: 154px;
   padding: 60px 80px 61px 54px;
   margin-top: 174px;
 }
@@ -1148,34 +1148,35 @@ img {
   width: 450px;
   background: #1b1b1b;
   border-radius: 54.729px;
-  margin-left: 66px;
+  margin-left: 105px;
   padding: 45px 14px 60px 28px;
-  margin-top: 207px;
+  margin-top: 252px;
 }
 .roadmapList {
   margin-bottom: 343px;
 }
 .roadmapDecor {
   position: absolute;
-  top: 573px;
-  left: 207px;
+  top: 876px;
+  left: -28px;
   width: 436px;
   height: 449px;
 }
 .roadmapDecorSecond {
   position: absolute;
-  width: 444.85px;
+  width: 491.85px;
   height: 575.07px;
-  left: 672px;
-  top: 506px;
+  left: 542px;
+  top: 791px;
 }
 .roadmapDecorThirt {
   position: absolute;
-  width: 393px;
-  height: 613px;
-  left: 1151px;
-  top: 526px;
+  width: 484px;
+  height: 611px;
+  left: 1127px;
+  top: 867px;
 }
+
 .howToBuyCont {
   display: block;
   position: relative;
@@ -1210,14 +1211,13 @@ img {
   position: absolute;
   width: 437.25px;
   height: 435px;
-  left: -92px;
-  top: 1130px;
+  left: -280px;
+  top: 1548px;
 }
 
 .howTObuyHEro {
   margin-left: 313px;
-  margin-top: -167px;
-}
+  margin-top: -81px;}
 
 .howtoBaycontent {
   display: flex;
@@ -1547,7 +1547,7 @@ details[open] div {
     display: block;
     font-family: "KomiqueSans";
     text-shadow: -10px -15px 0px #ffffff;
-    margin-top: 262px;
+    margin-top: 272px;
     margin-left: 490px;
     font-weight: 400;
     font-size: 95px;
@@ -1573,8 +1573,8 @@ details[open] div {
     position: absolute;
     width: 2076.65px;
     height: 524.63px;
-    left: 115px;
-    top: 196px;
+    left: 225px;
+    top: 457px;
   }
    {
   }
@@ -1636,15 +1636,15 @@ details[open] div {
   width: 434.64px;
 
   left: 560px;
-  top: 1143.38px;
+  top:  1421.38px;
 }
 
 .unlockDecorSecond {
   position: absolute;
   width: 360px;
   height: 467.05px;
-  left: 1674px;
-  top: 96px;
+  left: 1762px;
+  top: 272px;
 }
 .unlockDecorThirt {
   position: absolute;
@@ -1658,8 +1658,8 @@ details[open] div {
     position: absolute;
     width: 438px;
     height: 291.53px;
-    left: 0px;
-    top: -237px;
+    left: 80px;
+    top: -0px;
   }
    {
   }
@@ -1668,16 +1668,17 @@ details[open] div {
   position: absolute;
   width: 271px;
   height: 149px;
-  left: 96px;
-  top: 730.38px;
+      left: 98px;
+    top: 1009.3800000000001px;
 }
 .unlockDecorFift {
   position: absolute;
   width: 283px;
   height: 149px;
   left: 216px;
-  top: 999.3800000000001px;
+  top: 1223.38px;
 }
+
 .imgButton {
   position: relative;
 }
@@ -1695,8 +1696,7 @@ details[open] div {
     width: 1920px;
     height: 1210px;
     margin-top: 160px;
-    margin-left: -24px;
-  }
+margin-left: -51px;  }
    {
   }
 }
@@ -1725,8 +1725,8 @@ details[open] div {
 }
 @media only screen and (min-width: 1200px) {
   .brainFooter {
-    display: block;
-    padding-top: 29px;
+    display: flex;
+    padding-top: 78px;
     width: 1920px;
     background: #151515;
     height: 238px;
@@ -1744,6 +1744,10 @@ details[open] div {
   align-items: center;
   width: 1606px;
   margin: -38px 117px 179px 197px;
+}
+.navigation-footer {
+  display: flex;
+  color:#fff;
 }
 
 .mobFootercontainer {
