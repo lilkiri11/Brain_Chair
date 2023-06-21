@@ -116,8 +116,17 @@ img {
   text-transform: uppercase;
   margin-bottom: 0px;
 }
+.mobhedCont{
+  display: flex;
+  align-items: center;
+margin-top: 40px;
+
+  
+
+}
 .mobheader {
-  display: block;
+  display: flex;
+  align-items: center;
 }
 @media only screen and (min-width: 1200px) {
   .mobheader {
@@ -125,6 +134,19 @@ img {
   }
    {
   }
+}
+.mobNav {
+
+}
+.navMenuText {
+  font-family: "CabinetGrotesk-Medium";
+  font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+text-transform: uppercase;
+
+color: #000000;
+
 }
 .logo-header {
   width: 89px;
@@ -195,7 +217,7 @@ img {
   text-transform: uppercase;
 
   color: #000000;
-  top: -149px;
+  top: -94px;
   left: 39px;
 
   color: #000000;
@@ -217,7 +239,7 @@ img {
 .second-hero-text {
   position: absolute;
   font-family: "KomiqueSans", sans-serif;
-  top: -97px;
+  top: -42px;
   left: -167px;
   font-weight: 400;
   font-size: 60px;
@@ -249,8 +271,7 @@ img {
 
   transform: scale(-1, 1);
   left: 25px;
-  top: -46px;
-  z-index: -99;
+  top: 10px;  z-index: -99;
 }
 @media only screen and (min-width: 1200px) {
   .hero-img-background {
@@ -268,8 +289,8 @@ img {
   position: absolute;
   width: 193.18px;
   left: 52.17000000000007px;
-  top: -65.46000000000001px;
-  transform: scale(-1, 1);
+  top: -7.460000000000008px;
+    transform: scale(-1, 1);
 }
 
 @media only screen and (min-width: 1200px) {
@@ -342,14 +363,14 @@ img {
 }
 
 
-}
-.black-section {
+.black-section{
   position: relative;
   width: 390px;
-  margin: 614px 40px 0px 10px;
+  margin: 500px 0px 0px 0px;
   background-color: #282828;
   border-radius: 110px;
 }
+
 @media only screen and (min-width: 1200px) {
   .black-section {
     position: relative;
@@ -360,20 +381,19 @@ img {
   }
    {
   }
-}
 
-.hero-black-seaction {
+
+.hero-black-seactio{
   font-family: "KomiqueSans", sans-serif;
   font-weight: 400;
   font-size: 40px;
   line-height: 100%;
-  /* or 40px */
-
   text-align: center;
   color: transparent;
   -webkit-text-stroke: 2px #cef81b;
   padding-top: 160px;
   margin-bottom: 61px;
+
 }
 
 @media only screen and (min-width: 1200px) {
