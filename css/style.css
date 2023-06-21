@@ -19,7 +19,8 @@ body {
   /* костыль выше по overflow */
 }
 .container {
-  max-width: 100%;
+
+width: 390px;  
   margin-left: auto;
   margin-right: auto;
 
@@ -27,10 +28,9 @@ body {
 }
 @media only screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
-    max-width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 1840px;
+    margin-left: auto;
+    margin-right: auto;
 
     align-items: center;
   }
@@ -341,15 +341,7 @@ img {
 .contact-list {
 }
 
-@media only screen and (min-width: 1200px) {
-  .contact-list {
-    display: block;
-    position: relative;
-    left: 1800px;
-    top: -507px;
-  }
-   {
-  }
+
 }
 .black-section {
   position: relative;
@@ -817,8 +809,10 @@ img {
  {
 }
 .mobtokenCon {
-  display: none;
-  margin-top: 0px;
+  display: block;
+  margin-top: -356px;
+  margin-left: -25px;
+
 }
 @media only screen and (max-width: 1199px) {
   .mobtokenCon {
@@ -1742,14 +1736,7 @@ details[open] div {
 }
 .contact-list-button {
 }
-@media only screen and (min-width: 1200px) {
-  .contact-list-button {
-    display: flex;
-    left: 551px;
-    top: 48px;
-    position: relative;
-  }
-   {
+
   }
 }
 .header-footer-container {
