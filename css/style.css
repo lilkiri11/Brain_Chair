@@ -15,7 +15,7 @@ body {
   background: #cef81b;
   margin: 0;
   align-items: center;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   /* костыль выше по overflow */
 }
 .container {
@@ -127,6 +127,8 @@ img {
   }
 }
 .logo-header {
+  margin-left: 15px;
+
   width: 89px;
   height: 89px;
 }
@@ -280,6 +282,27 @@ color: #000000;
   left: 52.17000000000007px;
   top: -65.46000000000001px;
   transform: scale(-1, 1);
+  transition: all 0.5s ease;
+    animation: brainAnim 10s linear infinite;
+}
+
+@keyframes brainAnim {
+  0% {
+    transform: rotate(0deg);
+    margin: 0;
+  }
+  25% {
+      transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+      transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -413,7 +436,10 @@ color: #000000;
   height: 329px;
   left: 36px;
   top: 548px;
+
 }
+
+
 @media only screen and (min-width: 1200px) {
   .leftSideBlackImg {
     position: static;
@@ -531,6 +557,27 @@ color: #000000;
   height: 130.13px;
   right: -31px;
   top: 6.2099999999999795px;
+  transition: all 0.5s ease;
+    animation: moonAnim 5s linear infinite;
+}
+
+@keyframes moonAnim {
+  0% {
+    transform: rotate(0deg);
+    margin: 0;
+  }
+  25% {
+      transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+      transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -558,16 +605,38 @@ color: #000000;
     height: 135px;
     left: 1052px;
     top: 1012px;
+    transition: all 0.5s ease;
+    animation: crystalAnim 5s linear infinite;
   }
    {
   }
 }
+
+@keyframes crystalAnim {
+  0% {
+    left: 1052px;
+    margin: 0;
+  }
+  25% {
+    left: 1152px;
+  }
+  50% {
+    left: 1052px;
+  }
+  75% {
+    left: 1152px;
+  }
+  100% {
+    left: 1052px;
+  }
+}
+
 .decorBrainThirt {
   position: absolute;
   width: 74px;
   height: 26px;
-  left: 1070px;
-  top: 418px;
+  left: 20px;
+    top: 264px;
 }
 .socorBrainfifth {
   position: absolute;
@@ -605,6 +674,10 @@ color: #000000;
    {
   }
 }
+
+
+
+
 .aboutImgMob {
   display: none;
 }
@@ -622,7 +695,7 @@ color: #000000;
 .uncertainCOntainer {
   display: block;
   position: relative;
-  margin-left: 158px;
+  margin-left: 54px;
   margin-top: -10px;
 }
 .uncertainHeroMob {
@@ -633,7 +706,7 @@ color: #000000;
     display: block;
     position: absolute;
     width: 380px;
-    left: -153px;
+    left: -54px;
     top: 414px;
   }
    {
@@ -690,7 +763,7 @@ color: #000000;
   max-width: 331px;
   max-height: 188px;
   margin-bottom: 30px;
-  margin-left: -132px;
+  margin-left: -12px;
       margin-top: 982px;
 }
 @media only screen and (min-width: 1200px) {
@@ -774,6 +847,7 @@ color: #000000;
   left: 763.13px;
   top: 1189.85px;
 }
+
 @media only screen and (min-width: 1200px) {
   .uncertainDecor {
     display: block;
@@ -782,8 +856,29 @@ color: #000000;
     height: 299.65px;
     left: 763.13px;
     top: 1189.85px;
+    transition: all 0.5s ease;
+    animation: rotateLogo 5s linear infinite;
   }
    {
+  }
+}
+
+@keyframes rotateLogo {
+  0% {
+    transform: rotate(0deg);
+    margin: 0;
+  }
+  25% {
+      transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+      transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
 .tokenoomicsImg {
@@ -814,7 +909,7 @@ color: #000000;
     position: absolute;
     width: 468px;
     top: 1633px;
-    left: -215px;
+    left: -95px;
   }
 }
  {
@@ -1225,6 +1320,27 @@ color: #000000;
   height: 435px;
   left: -280px;
   top: 1548px;
+  transition: all 0.5s ease;
+  animation: smileAnim 5s linear infinite;
+}
+
+@keyframes smileAnim {
+  0% {
+    transform: rotate(0deg);
+    margin: 0;
+  }
+  25% {
+      transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+      transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .howTObuyHEro {
@@ -1574,15 +1690,18 @@ details[open] div {
   }
 }
 .heroimgUnlock {
+  display: none;
+  
   position: absolute;
-  width: 579px;
-  height: 218px;
-  left: -23px;
+  width: 478px;
+  height: 178px;
+  left: -13px;
   top: 306px;
 }
 
 @media only screen and (min-width: 1200px) {
-  .heroimgUnlock {
+  .heroimgUnlock{
+    display: block;
     position: absolute;
     width: 2076.65px;
     height: 524.63px;
@@ -1590,6 +1709,29 @@ details[open] div {
     top: 577px;
   }
    {
+  }
+}
+.heroimgUnlockMob{
+  display: none;
+  position: absolute;
+  width: 478px;
+  height: 178px;
+  left: -13px;
+  top: 306px;
+
+}
+@media only screen and (max-width: 1199px) {
+  .heroimgUnlockMob{
+    display: block;
+    position: absolute;
+    width: 407px;
+    height: 192px;
+    left: 11px;
+    top: 306px;
+}
+  
+  } {
+    
   }
 }
 .mobVer {
@@ -1614,6 +1756,7 @@ details[open] div {
   }
 }
 .firstunlokigtext {
+  display: none;
   width: 937px;
   font-family: "CabinetGrotesk-Light", sans-serif;
   font-weight: 300;
@@ -1623,7 +1766,23 @@ details[open] div {
   color: #000000;
   margin-bottom: 60px;
 }
+@media only screen and (min-width: 1200px) {
+  .firstunlokigtext {
+    display: block;
+    width: 937px;
+    font-family: "CabinetGrotesk-Light", sans-serif;
+    font-weight: 300;
+    font-size: 39px;
+    line-height: 48px;
+    margin-left: -204px;
+    color: #000000;
+    margin-bottom: 60px;
+  } {
+    
+  }
+}
 .secondunloktext {
+  display: none;
   width: 812px;
   font-family: "CabinetGrotesk-Light", sans-serif;
   font-weight: 300;
@@ -1633,7 +1792,23 @@ details[open] div {
   color: #000000;
   margin-bottom: 56.62px;
 }
+@media only screen and (min-width: 1200px) {
+  .secondunloktext {
+    display: block;
+    width: 812px;
+    font-family: "CabinetGrotesk-Light", sans-serif;
+    font-weight: 300;
+    font-size: 39px;
+    line-height: 48px;
+    margin-left: -52px;
+    color: #000000;
+    margin-bottom: 56.62px;
+  } {
+    
+  }
+}
 .thirtUnlokTExt {
+  display: none;
   font-family: "CabinetGrotesk-Light", sans-serif;
   width: 343px;
   font-weight: 300;
@@ -1643,21 +1818,63 @@ details[open] div {
   margin-left: 28px;
   color: #000000;
 }
-
+@media only screen and (min-width: 1200px) {
+  .thirtUnlokTExt {
+    display: block;
+    font-family: "CabinetGrotesk-Light", sans-serif;
+    width: 343px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 140.5%;
+    /* or 28px */
+    margin-left: 28px;
+    color: #000000;
+  } {
+    
+  }
+}
 .unlockDecor {
+  display: none;
+
   position: absolute;
   width: 434.64px;
 
   left: -22px;
   top: 1511.38px;
 }
+@media only screen and (min-width: 1200px) {
+  .unlockDecor {
+    display: block;
+    position: absolute;
+    width: 434.64px;
+  
+    left: -22px;
+    top: 1511.38px;
+  } {
+    
+  }
+}
 
 .unlockDecorSecond {
+  display: none;
   position: absolute;
   width: 360px;
   height: 467.05px;
   left: 921px;
   top: 272px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .unlockDecorSecond {
+    display: block;
+    position: absolute;
+    width: 360px;
+    height: 467.05px;
+    left: 921px;
+    top: 272px;
+  } {
+    
+  }
 }
 
 .logo-link-hero {
@@ -1706,10 +1923,32 @@ details[open] div {
     height: 291.53px;
     left: -752px;
     top: -0px;
+    transition: all 0.5s ease;
+    animation: secondSmileAnim 5s linear infinite;
   }
    {
   }
 }
+
+@keyframes secondSmileAnim {
+  0% {
+    transform: rotate(0deg);
+    margin: 0;
+  }
+  25% {
+      transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+      transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 .unlockDecor-fourt {
   position: absolute;
   width: 271px;
@@ -1856,7 +2095,7 @@ margin-left: -51px;  }
     .MOblogo-link-button-first  {
       display: block;
       position: absolute;
-      left: 226px;
+      left: 240px;
       top: 10551px;
     } {
       
@@ -1872,7 +2111,7 @@ margin-left: -51px;  }
     .Moblogo-link-button-second {
       display: block;
       position: absolute;
-      left: 306px;
+      left: 319px;
       top: 10551px;
     } } 
       
